@@ -1,0 +1,147 @@
+body {
+	background-color: rgb(89, 89, 89);
+	margin: 70px;
+	font-family: verdana;
+}
+
+section.logo {
+	float: left;
+	height: 150px;
+	width: 150px;
+}
+
+img.logo {
+	border-radius: 50%;
+	border: solid black 1px;
+}
+
+header {
+	font-family: verdana;
+	background-color: rgb(89, 89, 89);
+	text-align: center;
+	height: 150px;
+	font-size: 30px;
+	color: rgb(171, 171, 171);
+}
+
+span {
+	color: rgb(255, 28, 152);
+}
+
+nav.home {
+	float: left;
+	height: 692px;
+	width: 150px;
+	margin-right: 5px;
+	border-right: solid rgb(255, 28, 152) 1px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+  display: block;
+  width: 120px;
+  padding: 5px 10px;
+  background-color: rgb(171, 171, 171);
+  text-decoration: none;
+  margin: 1px;
+  margin-left: -34%;
+  border: solid black 1px;
+  border-left-color: rgb(255, 28, 152);
+  color: rgb(0, 0, 0);
+}
+
+li a:hover {
+  background-color: rgb(85, 85, 85);
+  border-left-color: rgb(68, 255, 230);
+  color: white;
+}
+
+h1.title {
+	margin-left: 157px;
+	margin-bottom: 5px;
+	width: 85%;
+	border-bottom: solid 1px;
+	border-color: rgb(255, 28, 152);
+}
+
+img.cover{
+	height: 400px;
+	width: 275px;
+	padding: 5px;
+	float: left;
+}
+
+div {
+	margin: 5px;
+	height: auto;
+	width: 59%;
+	float: left;
+	background-color: rgb(171, 171, 171);
+	padding-left: 2px;
+	border: solid black 1px;
+}
+
+section.table {
+	height: 30px;
+}
+
+table.anime {
+	font-family: verdana;
+	border-collapse: collapse;
+	border: solid black 1px;
+	float: left;
+	margin-top: 5px;
+	width: 60%;
+}
+
+th {
+	background-color: rgb(0, 0, 0);
+	color: rgb(171, 171, 171);
+	border-left: solid black 1px;
+	border-right: solid plack 1px;
+}
+
+td {
+	text-align: center;
+	border-right: solid black 1px;
+	border-left: solid black 1px;
+}
+	
+h2 {
+	font-family: verdana;
+	margin-top: 50px;
+}
+
+p {
+	font-family: verdana;
+	text-indent: 50px;
+	border-left: solid rgb(255, 28, 152) 1px;
+	width: 95%;
+	float: left;
+	padding: 5px;
+}
+
+section.container {
+	height: 500px;
+	width: 500px;
+	border: solid black 1px;
+	position: absolute;
+	left: 40%;
+	margin-top: 17%;
+}
+
+img.sample {
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	left: 10%;
+}
+
+footer {
+	clear: both;
+	padding-top: 20px;
+	color: rgb(50, 50, 50);
+}
